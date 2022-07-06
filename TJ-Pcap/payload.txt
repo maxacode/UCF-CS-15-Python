@@ -1,0 +1,153 @@
+GET /msdownload/update/v3/static/trustedr/en/pinrulesstl.cab?3ff5c31604b510fa HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+User-Agent: Microsoft-CryptoAPI/10.0
+Host: ctldl.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=524288-786431
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.4
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=786432-1048575
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.5
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=5242880-5505023
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.5
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=5505024-5767167
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.6
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=5767168-6029311
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.6
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=6029312-6291455
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.7
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=1048576-1310719
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.8
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=1310720-1572863
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.7
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /desktop.png HTTP/1.1
+Host: windowsliveupdater.com
+Connection: Keep-Alive
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=1572864-1835007
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.8
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=1835008-2097151
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.9
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=6291456-6553599
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.9
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=6553600-6815743
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.10
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=6815744-7077887
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.10
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=7077888-7340031
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.1.1.11
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /c/msdownload/update/software/defu/2022/05/am_delta_1cf6ea63fd78b17ca40753ddd5e38ab7e18b6330.exe HTTP/1.1
+Connection: Keep-Alive
+Accept: */*
+Range: bytes=7340032-7431647
+User-Agent: Microsoft-Delivery-Optimization/10.0
+MS-CV: 8tZZFbv1h0GjF8BK.2.0.0.2.2.6.2.1.11
+Content-Length: 0
+Host: au.download.windowsupdate.com
+
+GET /appraiseradl/2022_04_28_02_01_AMD64.cab HTTP/1.1
+Cache-Control: no-cache
+Connection: Keep-Alive
+Pragma: no-cache
+Accept: */*, text/*
+User-Agent: WicaAgent
+Host: adl.windows.com
+
