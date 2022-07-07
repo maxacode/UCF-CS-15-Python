@@ -3,7 +3,7 @@ import socket
 import time
 
 my_socket = socket.socket()
-my_socket.connect(("10.0.0.5", 4444))
+my_socket.connect(("127.0.0.1", 4444))
 time.sleep(5)
 my_socket.close()
 

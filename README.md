@@ -523,3 +523,73 @@ https://vnetman.github.io/pcap/python/pyshark/scapy/libpcap/2018/10/25/analyzing
 
 
 https://realpython.com/python-pep8/
+
+
+
+# Class 6 Wednesday July 6th. 
+
+
+
+import socketnew_socket = socket.socket()
+Ip = input(“Enter a IP address”)
+
+Port = 5000
+new_socket.bind((Ip, Port))
+
+
+"""
+Detect windows login failed events. 
+
+Create an alert when 3 failed logins in a 5min span per user/machine. 
+
+Create an alert after 50 failed logins if a Succesful one happens within 10min.
+
+"""
+
+    logs= [
+        {'Date': '07-06-2022', 'Time': '6:54', 'Username': 'Bob' ,'Event': 'Succesfull Logon', "IP Address": "13.1.5.15"},
+        {'Date': '07-06-2022', 'Time': '6:55', 'Username': 'Administrator' ,'Event': 'Failed Logon', "IP Address": "13.1.5.15"},
+        {'Date': '07-06-2022', 'Time': '6:56', 'Username': 'Administrator' ,'Event': 'Failed Logon', "IP Address": "13.1.5.15"},
+        {'Date': '07-06-2022', 'Time': '6:56', 'Username': 'Administrator' ,'Event': 'Succesfull Logon', "IP Address": "13.1.5.15"},
+        {'Date': '07-06-2022', 'Time': '6:57', 'Username': 'Administrator' ,'Event': 'Failed Logon', "IP Address": "13.1.5.15"}
+    ]
+
+    failedTimes = 0
+    timeOfFailLogin = 0
+
+    for singleLog in logs:
+        #print(singleLog)
+        if singleLog['Event'] == "Failed Logon":
+            failedTimes += 1
+            if failedTimes >= 3:
+                print("ALERT! To many Failed Logins! BRUTE FORCE ATTEMPT")
+
+            if singleLog['Time'] - timeOfFailLogin < 5:
+                continue
+
+            else:
+                failedTimes = 0
+                continue
+        
+
+
+
+    """Lab Objective: Implement the required commands to create a listening server."""
+    from audioop import add
+    import socket
+
+    print("Starting Server!")
+    my_sock = socket.socket()
+    my_sock.bind(("0.0.0.0", 4444))
+
+    print("Waiting for connections!.....")
+    my_sock.listen(1)
+    connection, address = my_sock.accept()
+    print(f"Connection Variable: {connection} \n Address Variable: {address}")
+
+    my_sock.close()
+
+
+    input("\nPress 'Enter' to exit the program")# prevents program from closing upon execution
+
+https://github.com/maxacode/BasicChatRoom/blob/master/server.py

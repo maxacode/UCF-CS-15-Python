@@ -1,16 +1,22 @@
 """Lab Objective: Create a login interface using sockets."""
 import socket
 
+print('starting server')
 s = socket.socket()
 s.bind(("0.0.0.0", 4321))
 s.listen(1)
 conn, addr = s.accept()
+print("connection estableshed - requestiong username!")
+
 conn.send("Welcome to the server!\nPlease insert your Username:".encode())
 username = conn.recv(2048).decode()
+print(f"User entered this username: {username}")
+
+print("")
 conn.send("Please insert the Password:".encode())
 password = conn.recv(2048).decode()
 if username == "John" and password == "12345":
-    conn.send(f"Welcome {username}".encode())
+    conn.send(f"Succesfull Login {username}".encode())
 else:
     conn.send("Wrong username or password".encode())
 
